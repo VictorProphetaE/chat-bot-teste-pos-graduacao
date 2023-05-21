@@ -52,7 +52,7 @@ Certifique-se de ter os arquivos "merged.json", "data.pickle" e "model.tflearn" 
     ...
   ]
 }
-
+```
 O arquivo "merged.json" será criado durante a execução da função merge_json_files. Se você adicionar novas intenções posteriormente, lembre-se de executar novamente essa função para atualizar o arquivo.
 
 Se você adicionar novas palavras e respostas usando a função add_new_word, certifique-se de executar novamente as etapas 2 e 3 (funções preprocess_data e train_model) para processar os dados atualizados e re-treinar o modelo.
